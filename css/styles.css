@@ -1,0 +1,77 @@
+/*UNIVERSALS*/
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:900|Raleway:400,700');
+/*font-family: 'Lobster', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+/*NAVBAR*/
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+background-color: rgba(0, 0, 0, .5);
+color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #D34326;
+  background-color: rgba(0, 0, 0, .15);
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
+}
+
+/*CAROUSEL SECTION*/
+.item {
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#wood-background {
+  background-image: url('../img/wood-2.jpg');
+  padding-top: 9%;
+}
+
+#seating-background {
+  background-image: url('../img/restaurant-2.jpg');
+}
+
+#farm-background {
+  background-image: url('../img/farm-2.jpg');
+}
+
+#main-logo {
+  width: 250px;
+}
+
+.carousel-caption {
+  padding-bottom: 110px;
+}
+
+.carousel-caption h3 {
+  font-size: 36px;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #D34326;
+  border: none;
+}
+
+.btn-default:hover {
+  background-color: #D34326;
+  
+}
