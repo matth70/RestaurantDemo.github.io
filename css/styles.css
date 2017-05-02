@@ -7,6 +7,18 @@ font-family: 'Playfair Display', serif;*/
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
+
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.orange-text {
+  color: #F8512F;
+}
+
+.raleway-text {
+  font-family: 'Raleway', sans-serif;
+}
 /*NAVBAR*/
 .navbar-default {
   background-color: transparent;
@@ -73,5 +85,23 @@ color: #fff;
 
 .btn-default:hover {
   background-color: #D34326;
-  
+
+}
+
+/*OUR STORY*/
+#our-story {
+  margin-top: 75px;
+}
+
+#our-story h1.lobster-text {
+  text-shadow: 2px 2px #b7b7b7;
+  font-size: 4.5em;
+}
+
+#year-text {
+  position: absolute;
+  font-size: 10em;
+  color: rgba(0, 0, 0, .08);
+  z-index: 0;
+  font-family: 'Playfair Display', serif;
 }
