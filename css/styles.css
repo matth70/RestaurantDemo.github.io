@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #F8512F;
 }
 
+.white-text {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
 .raleway-text {
   font-family: 'Raleway', sans-serif;
 }
@@ -45,7 +50,6 @@ color: #fff;
   height: 450px;
   background-position: center;
   background-size: cover;
-
 }
 
 #wood-background {
@@ -104,4 +108,27 @@ color: #fff;
   color: rgba(0, 0, 0, .08);
   z-index: 0;
   font-family: 'Playfair Display', serif;
+}
+
+/*THE BEE*/
+#review {
+  background-image: url('../img/food_review.jpg');
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 150px;
+}
+
+#review-background {
+  background-color: rgba(0, 0, 0, .5);
+  padding: 5px 0px;
+  margin-top: 150px;
+  text-shadow: 1px 1px rgba(0, 0, 0, .5);
+  border-radius: 5px;
+}
+
+#review-background h3 {
+  font-size: 50px;
+  text-shadow: 1px 1px #000000;
 }
