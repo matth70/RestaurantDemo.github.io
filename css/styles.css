@@ -187,10 +187,36 @@ margin-left: 5px;
 }
 
 form {
-  background-color: ;
-  width: 350px;
+  background-color: #FF6633;
+  width: 300px;
+  padding: 10px;
+  margin-top: 34px;
+}
+
+.form-group {
+  font-size: 13px;
+}
+
+.form-group input {
+  height: 20px;
 }
 
 input {
   height: 5px;
+}
+
+#contact-section h1 {
+  color: white;
+}
+
+#contact-section p {
+  color: white;
+}
+
+#contact-section label {
+  color: white;
+}
+
+form button {
+  margin-left: 80px;
 }
