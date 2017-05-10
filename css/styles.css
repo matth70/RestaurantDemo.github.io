@@ -179,3 +179,18 @@ margin-left: 5px;
 .nav-tabs>li.active>a:hover,  {
   background-color: rgba(0, 0, 0, .25)
 }
+
+/*CONTACT*/
+#contact-section {
+  background-color: #F8512F;
+  height: 550px;
+}
+
+form {
+  background-color: ;
+  width: 350px;
+}
+
+input {
+  height: 5px;
+}

@@ -8,35 +8,37 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar">
+	<div id="navbar">
 	<!-- NAVBAR BEGINS -->
-	<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+		<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
 
-      <a class="navbar-brand" href="index.html"><img src="img/name-01.png" alt="Matthew Hovsepian Logo" class="img-responsive"></a>
-    </div>
+	      <a class="navbar-brand" href="index.html"><img src="img/name-01.png" alt="Matthew Hovsepian Logo" class="img-responsive"></a>
+	    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-	      <li><a href="#">Our Story</a></li>
-		    <li><a href="#">Review</a></li>
-			  <li><a href="#">Menu</a></li>
-				<li><a href="#">Contact Us</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+		      <li><a href="#our-story">Our Story</a></li>
+			    <li><a href="#review">Review</a></li>
+				  <li><a href="#menu-section">Menu</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
 <!-- NAVBAR ENDS -->
+</div>
 <!-- CAROUSEL BEGINS -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -125,22 +127,22 @@
 		  <div class="tab-content">
 		    <div role="tabpanel" class="tab-pane fade in active" id="appetizers">
 		    	<!-- APPETIZERS SECTION BEGINS -->
-					  <div class="col-sm-6 col-md-3 food-item">
+					  <div class="col-xs-6 col-md-3 food-item">
 					     <img src="img/dip.jpg" alt="Artichoke Dip" class="img-responsive img-thumbnail">
 							 <h3 class="text-center">Appetizer 1</h3>
 							 <p class="text-justify raleway-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minima aperiam recusandae quaerat reiciendis, odio exercitationem facilis et magni. Sit, temporibus placeat, soluta molestiae quia sint laboriosam dolorem nesciunt. Incidunt.</p>
 					  </div>
-						<div class="col-sm-6 col-md-3 food-item">
+						<div class="col-xs-6 col-md-3 food-item">
 					     <img src="img/eggplant.jpg" alt="Eggplant" class="img-responsive img-thumbnail">
 							 <h3 class="text-center">Appetizer 2</h3>
 							 <p class="text-justify raleway-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minima aperiam recusandae quaerat reiciendis, odio exercitationem facilis et magni. Sit, temporibus placeat, soluta molestiae quia sint laboriosam dolorem nesciunt. Incidunt.</p>
 					  </div>
-						<div class="col-sm-6 col-md-3 food-item">
+						<div class="col-xs-6 col-md-3 food-item">
 					     <img src="img/meat.jpg" alt="Prime Rib" class="img-responsive img-thumbnail">
 							 <h3 class="text-center">Appetizer 3</h3>
 							 <p class="text-justify raleway-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minima aperiam recusandae quaerat reiciendis, odio exercitationem facilis et magni. Sit, temporibus placeat, soluta molestiae quia sint laboriosam dolorem nesciunt. Incidunt.</p>
 					  </div>
-						<div class="col-sm-6 col-md-3 food-item">
+						<div class="col-xs-6 col-md-3 food-item">
 					     <img src="img/bruschetta.jpg" alt="Bruschetta" class="img-responsive img-thumbnail">
 							 <h3 class="text-center">Appetizer 4</h3>
 							 <p class="text-justify raleway-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minima aperiam recusandae quaerat reiciendis, odio exercitationem facilis et magni. Sit, temporibus placeat, soluta molestiae quia sint laboriosam dolorem nesciunt. Incidunt.</p>
@@ -225,7 +227,51 @@
 	</div>
 </div>
 </div>
+</div>
 <!-- MENU ENDS -->
+
+<!-- CONTACT BEGINS -->
+<div class="container-fluid" id="contact-section">
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Contact Us</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quos!</p>
+				</div>
+			</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<form>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Name</label>
+				    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Email</label>
+				    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="">
+				  </div>
+					<div class="form-group">
+				    <label for="subject">Subject</label>
+				    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="">
+				  </div>
+				  <div class="form-group">
+				    <label for="message">Message</label>
+				    <textarea class="form-control" rows="3" id="message"></textarea>
+				  </div>
+				  <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Check me out
+				    </label>
+				  </div>
+				  <button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- CONTACT BEGINS -->
 	<!-- JAVASCRIPT	-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
